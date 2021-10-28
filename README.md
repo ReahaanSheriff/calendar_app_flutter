@@ -1,16 +1,31 @@
-# calendar
+# calendar <br/>
 
-A new Flutter project.
+Getting Started <br/>
+Note: Make sure your Flutter environment is setup.<br/>
 
-## Getting Started
+# Setup Flutter Firebase integration <br/>
+## Check out the documentation to setup Flutter Firebase integration. <br/>
 
-This project is a starting point for a Flutter application.
+## For Android <br/>
+In android/app folder add/replace your google-service.json. <br/>
 
-A few resources to get you started if this is your first Flutter project:
+## For iOS <br/>
+In ios/Runner folder add/replace your GoogleService-Info.plist. <br/>
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Start your Flutter project by running the command: <br/>
+$ flutter run <br/>
+## Simulate for iOS <br/>
+## 1. Method One<br/>
+Open the project in Xcode from ios/Runner.xcodeproj.<br/>
+Hit the play button.<br/>
+## 2. Method Two<br/>
+Run the following command in your terminal.<br/>
+$ open -a Simulator<br/>
+$ flutter run<br/>
+## Simulate for Android<br/>
+Make sure you have an Android emulator installed and running.<br/>
+Run the following command in your terminal.<br/>
+$ flutter run<br/>
+Check out Flutter’s online documentation for help getting start with your Flutter project.<br/>
+
